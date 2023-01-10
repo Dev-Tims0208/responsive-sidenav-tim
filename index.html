@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/assets/font-awesome-v5/css/all.css">
+    <title>Side Nav Example</title>
+</head>
+<body>
+    <div class="container-fluid np">
+        <div class="row nm">
+            <div class="col-12 np">
+                <div class="main_nav">
+                    <div class="mobile_burger">
+                        <button id="mobile_nav_show">
+                            <i class="fas fa-bars"></i>
+                        </button> 
+                       <span style="font-size: 1.275rem;"> Main Nav Here</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden_gap"></div>
+    <div class="container-fluid np">
+        <div class="row nm">
+            <div class="d-lg-block col-lg-3 np hidden_nav">
+                <div class="desktop_nav">
+                    <div class="side_nav_parent">
+                        <div class="side_nav_container">
+                            <div class="row nm">
+                                <div class="col-8">
+                                    <div class="nav_title">
+                                        Admin DB
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="nav_burger">
+                                        <button id="mobile_toggle_nav">
+                                            <i class="fas fa-bars"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row nm">
+                                <div class="col-md-12 np" style="opacity: 0;">
+                                    <div class="side_nav_title_widget">
+                                        <span>CEBS | IT/Administrator</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row nm">
+                                <div class="col-md-12 np brd-bot">
+                                    <div class="row nm">
+                                        <div class="col-md-3 np">
+                                            <div class="side_nav_user_img_widget">
+                                                <img src="/img/human.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 np">
+                                            <div class="side_nav_user_widget">
+                                                <p>Welcome,<span style="padding-left: 4px;">Pakalu Papito</span></p>
+                                            </div>
+                                            <div class="side_nav_color_widget">
+                                                <span class="color-widget-1">
+                                                    <i class="fas fa-circle"></i>
+                                                </span>
+                                                <span>Online</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- SAMPLE NAVIGATION -->
+                            <div class="row nm">
+                                <div class="col-md-12 np">
+                                    <div class="side_nav_label_widget">
+                                        <span>Navigation | Menu</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 np">
+                                    <div class="side_nav_links">
+                                        <a href="home-dashboard.php"><i class="fas fa-home"></i>Home</a>
+                                    </div>
+                                    <div class="side_nav_links">
+                                        <a href="#collapse1" data-bs-toggle="collapse"><i class="fas fa-book"></i>Records <span><i class="fas fa-angle-down"></i></span></a>
+                                        <div id="collapse1" class="collapse side_nav_link_collapse">
+                                            <a href="records-students-enrolled.php"><i class="fas fa-angle-right"></i>Manage Enrollment</a>
+                                            <a href="records-students-view.php"><i class="fas fa-angle-right"></i>View Records</a>
+                                            <!-- <a href="#"><i class="fas fa-angle-right"></i>Grading</a> -->
+                                            <a href="records-billing.php"><i class="fas fa-angle-right"></i>Manage Payment</a>
+                                        </div>
+                                    </div>
+                                    <div class="side_nav_links">
+                                        <a href="#collapse2" data-bs-toggle="collapse"><i class="fas fa-cog"></i>Settings <span><i class="fas fa-angle-down"></i></span></a>
+                                        <div id="collapse2" class="collapse side_nav_link_collapse">
+                                            <a href="settings-section.php"><i class="fas fa-angle-right"></i>Manage Section</a>
+                                            <!-- <a href="settings-year-level.php"><i class="fas fa-angle-right"></i>Year Level</a> -->
+                                            <a href="settings-advisers.php"><i class="fas fa-angle-right"></i>Manage Advisers</a>
+                                            <a href="settings-school-year.php"><i class="fas fa-angle-right"></i>Manage School Year</a>
+                                            <a href="settings-subject.php"><i class="fas fa-angle-right"></i>Manage Subjects</a>
+                                            <a href="settings-billing.php"><i class="fas fa-angle-right"></i>Manage Billing Details</a>
+                                            <a href="settings-discounts.php"><i class="fas fa-angle-right"></i>Manage Scholarships and Discount</a>
+                                        </div>
+                                    </div>
+                                    <div class="side_nav_links">
+                                        <a href="#collapse3" data-bs-toggle="collapse"><i class="fas fa-exclamation-triangle"></i>System Security <span><i class="fas fa-angle-down"></i></span></a>
+                                        <div id="collapse3" class="collapse side_nav_link_collapse">
+                                            <a href="system-account-it.php"><i class="fas fa-angle-right"></i>Manage Profile</a>
+                                            <a href="system-roles-it.php"><i class="fas fa-angle-right"></i>Manage Accounts/Roles</a> 
+                                            <a href="system-login-history.php"><i class="fas fa-angle-right"></i>View Login History</a> 
+                                        </div>
+                                    </div>
+                                    <div class="side_nav_links">
+                                        <a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12 np">
+                <div class="container-fluid np">
+                    <div class="row nm">
+                        <div class="col-12 np" style="height: 100vh; background: slategray; padding: 2vh;">
+                            Your content here
+                            <div class="blur_wrap">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> 
+<script type="text/javascript" src="/assets/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/jqueryui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/menu.js"></script>
+</html>
