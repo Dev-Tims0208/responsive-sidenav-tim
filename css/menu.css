@@ -63,7 +63,7 @@ a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus
 }
 .hidden_nav {
 	position: fixed;
-	left: 0; 
+	left: 0 ;  
 	width: inherit;
 }
  
@@ -242,6 +242,11 @@ padding-right: 10px;
 	display: none;
 }
 /* tablet */
+@media (min-width: 993px){
+	.hidden_nav {
+		left:0;
+	}	
+}
 @media (min-width: 320px) and (max-width: 992px){
 	.main_nav {
 		position: fixed;

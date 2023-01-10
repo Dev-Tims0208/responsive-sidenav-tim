@@ -19,4 +19,17 @@ $(document).ready(function(){
         $('.hidden_nav').css('left', '-100%');
         $('.blur_wrap').removeClass('d-block');
     });
+
+    // if browser width more than 992px
+    $(window).resize(function(){
+        if($(window).width() > 992){ 
+            $('.hidden_nav').css('left', '0'); 
+            console.log($(window).width());
+        }
+        if($(window).width() <= 768){ 
+            $('.hidden_nav').css('left', '-100%'); 
+            console.log($(window).width());
+        }
+    });
+     
 })
