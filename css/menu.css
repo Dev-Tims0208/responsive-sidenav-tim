@@ -15,6 +15,7 @@ main {
 	position: relative;
 	z-index: 999;
 	transition: .35s linear;
+	display: none;
 }
  
 tbody {
@@ -59,6 +60,11 @@ a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus
 }
 .hidden_gap {
 	display: none;
+}
+.hidden_nav {
+	position: fixed;
+	left: 0; 
+	width: inherit;
 }
  
   /* side nav start*/
@@ -245,6 +251,7 @@ padding-right: 10px;
 		margin: 0 auto;
 		width: 100vw;
 		height: 70px;
+		display: block;
 	}
 	.hidden_nav {
 		width: 70vw;
